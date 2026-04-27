@@ -1,0 +1,44 @@
+```
+# Julia build artifacts
+*.ji
+*.jl.c
+*.jl.o
+*.jl.so
+
+# Julia package manager
+.julia/
+Julia/
+
+# Go build artifacts
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+
+# Dependencies
+deps/
+build/
+dist/
+target/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS specific
+.DS_Store
+Thumbs.db
+```
