@@ -1,44 +1,35 @@
 ```
-# Julia build artifacts
-*.ji
-*.jl.c
-*.jl.o
-*.jl.so
-
-# Julia package manager
-.julia/
-Julia/
-
-# Go build artifacts
+# Compiled and binary files
+*.pyc
+*.class
 *.o
-*.a
-*.so
 *.exe
 *.dll
-*.dylib
-
+*.so
+*.a
+*.obj
+*.out
 # Dependencies
-deps/
-build/
+node_modules/
+venv/
+.venv/
+__pycache__/
 dist/
+build/
+.mypy_cache/
+.pytest_cache/
 target/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
+.gradle/
+# Editors/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs and temp files
-*.log
 *.tmp
-
-# OS specific
-.DS_Store
-Thumbs.db
+# Logs
+*.log
+# Coverage
+coverage/
+htmlcov/
+.coverage
 ```
